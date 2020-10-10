@@ -1,0 +1,24 @@
+{
+  "name": "graphql-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "jest",
+    "get-schema": "graphql get-schema -p prisma"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcryptjs": "^2.4.3",
+    "graphql-cli": "^2.16.4",
+    "graphql-yoga": "^1.16.7",
+    "jest": "^23.5.0",
+    "jsonwebtoken": "^8.3.0",
+    "nodemon": "^1.17.5",
+    "prisma-binding": "^2.1.1"
+  }
+}

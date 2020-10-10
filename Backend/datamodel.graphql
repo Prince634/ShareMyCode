@@ -1,0 +1,11 @@
+type User{
+  id: ID! @unique
+  name: String!
+  email: String! @unique
+  password: String!
+}
+
+type Room{
+	users: [User!]!
+	id: ID! @unique
+}

@@ -1,0 +1,55 @@
+body{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+p{
+  margin: 0px;
+  padding: 0px;
+}
+.nrby-txt{
+  font-weight: 900;
+  display: inline-block;
+  font-size: large;
+}
+.header{
+  background: #4D48A0;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+.header span{
+  color:white;
+  padding: 16px 8px;
+  cursor: pointer;
+}
+
+.left-nav{
+  padding: 5px;
+}
+.right-nav{
+  display: flex;
+  justify-content: flex-end;
+}
+.right-spn:hover {
+  background: #111111;
+}
+.allRooms{
+  display: flex;
+}
+.room{
+  margin: 3px 8px;
+  padding: 5px;
+}
+.room-spec{
+  padding: 2px;
+  font-weight: 600;
+}
+.edit-blck{
+  margin: 8px;
+  width: 80%;
+}
